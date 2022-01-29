@@ -1,0 +1,21 @@
+Endpoint
+
+method:post
+ http://localhost:4000/api/
+{
+"nombrePersona":"Yola",
+"apellidoPersona":"Corra",
+"correo":"y@gmail.com",
+"nombreMascota": "hola",
+"pesoMascota": "5 kg",
+"razaMascota": "perro"
+
+
+}
+
+method:get
+ http://localhost:4000/api/
+
+ method:get
+ buscar por nombre persona
+ http://localhost:4000/api/Yolanda
